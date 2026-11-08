@@ -24,11 +24,17 @@ export const siteConfig = {
   ],
   contact: {
     email: "suporte@ligacoop.coop.br",
-    phone: "+555432194365",
-    phoneDisplay: "(54) 3219-4365",
-    whatsapp: "+5554991470750",
-    whatsappDisplay: "(54) 99147-0750",
-    whatsappUrl: "https://wa.me/5554991470750",
+    phone: "+5554999805998",
+    phoneDisplay: "(54) 99980-5998",
+    whatsapp: "+5554999805998",
+    whatsappDisplay: "(54) 99980-5998",
+    whatsappUrl: "https://wa.me/5554999805998",
+  },
+  passengerApp: {
+    name: "Liga Coop Passageiro",
+    ios: "https://apps.apple.com/br/app/liga-coop-passageiro/id1637724825",
+    android:
+      "https://play.google.com/store/apps/details?id=br.com.devbase.ligabycomobi&hl=pt_BR",
   },
   social: {
     instagram: "https://instagram.com/ligacoopoficial",

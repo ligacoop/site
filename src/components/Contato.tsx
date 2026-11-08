@@ -38,19 +38,8 @@ export default function Contato() {
                   strokeLinejoin="round"
                 />
               </svg>
-              <a href={`tel:${siteConfig.contact.phone}`}>{siteConfig.contact.phoneDisplay}</a>
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path
-                  d="M20 12a8 8 0 1 1-3.6-6.7L20 4l-1.1 3.7A7.96 7.96 0 0 1 20 12Z"
-                  stroke="currentColor"
-                  strokeWidth="1.6"
-                  strokeLinejoin="round"
-                />
-              </svg>
-              <a href={siteConfig.contact.whatsappUrl} target="_blank" rel="noopener noreferrer">
-                {siteConfig.contact.whatsappDisplay} · WhatsApp
+              <a href={`tel:${siteConfig.contact.phone}`}>
+                {siteConfig.contact.phoneDisplay} · Telefone e WhatsApp
               </a>
             </li>
             <li>

@@ -415,6 +415,72 @@ h2.center {
   grid-column: 1 / -1;
 }
 
+/* ---------- Baixar app ---------- */
+.app-cta {
+  padding: 0 0 108px;
+}
+.app-cta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 48px 52px;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 106, 0, 0.28);
+  background:
+    radial-gradient(90% 140% at 0% 0%, rgba(255, 106, 0, 0.18), transparent 60%),
+    linear-gradient(135deg, rgba(31, 143, 116, 0.14), rgba(255, 255, 255, 0.02));
+}
+.app-cta-text {
+  max-width: 560px;
+}
+.app-cta-text h2 {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+}
+.app-cta-text p:last-child {
+  margin: 0;
+}
+.store-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex-shrink: 0;
+}
+.store-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 232px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  background: #fff;
+  color: #0b0b0d;
+  font-family: var(--font-head), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.1;
+  transition:
+    transform 0.25s var(--ease),
+    box-shadow 0.25s var(--ease);
+}
+.store-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -10px rgba(255, 106, 0, 0.55);
+}
+.store-btn svg {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.store-btn small {
+  display: block;
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+}
+
 /* ---------- Missão / Visão ---------- */
 .mv-grid {
   display: grid;
@@ -813,6 +879,15 @@ h2.center {
   .hero-stats-grid {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 24px;
+  }
+  .app-cta-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px 28px;
+  }
+  .store-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 

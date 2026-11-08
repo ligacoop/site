@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Sobre from "@/components/Sobre";
+import BaixarApp from "@/components/BaixarApp";
 import MissaoVisao from "@/components/MissaoVisao";
 import Valores from "@/components/Valores";
 import Impacto from "@/components/Impacto";
@@ -22,6 +23,7 @@ export default function Home() {
       <main id="conteudo">
         <Hero />
         <Sobre />
+        <BaixarApp />
         <MissaoVisao />
         <Valores />
         <Impacto />
