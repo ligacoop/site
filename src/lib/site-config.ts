@@ -7,7 +7,7 @@ export const siteConfig = {
     "A Liga Coop reúne 10 cooperativas filiadas em um transporte privado de pessoas, empresas e bens que é justo, seguro e confiável. Conheça a federação que move o cooperativismo de mobilidade no Brasil.",
   shortDescription:
     "Transporte justo, seguro e cooperativo para pessoas, empresas e bens.",
-  url: "https://www.ligacoop.coop.br",
+  url: "https://www.ligacoop.com.br",
   locale: "pt_BR",
   foundingDate: "2023",
   foundingLocation: "Caxias do Sul, RS",
